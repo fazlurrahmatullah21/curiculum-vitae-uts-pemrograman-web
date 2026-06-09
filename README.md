@@ -39,7 +39,7 @@ Beberapa fitur dan elemen yang terdapat pada website ini antara lain:
 
 ## Struktur Folder
 
-
+```text
 curiculum-vitae-uts-pemrograman-web/
 │
 ├── index.html
@@ -63,11 +63,15 @@ curiculum-vitae-uts-pemrograman-web/
 
 Website yang sudah dipublish dapat diakses melalui link berikut:
 
+```text
 Isi link website kamu di sini
+```
 
 ## Link Repository
 
+```text
 Isi link repository GitHub kamu di sini
+```
 
 ## Keterangan
 
