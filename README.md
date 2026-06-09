@@ -47,7 +47,7 @@ curiculum-vitae-uts-pemrograman-web/
 ├── script.js
 │
 └── images/
-    ├── Pas_Foto.jpg.jpg
+    ├── Pas_Foto.jpg
     ├── kubernetes.jpg
     └── server_lahtube_old2.jpg
     └── unsia_gambar.jpg
