@@ -5,7 +5,7 @@ Project ini dibuat untuk memenuhi tugas Ujian Tengah Semester mata kuliah **Pemr
 ## Identitas
 
 * Nama: Fazlur Rahmatullah
-* NIM: Isi NIM Kamu
+* NIM: 250401010005
 * Kelas: IF202
 * Mata Kuliah: Pemrograman Web I
 
