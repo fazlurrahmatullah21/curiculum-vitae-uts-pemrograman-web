@@ -11,7 +11,7 @@ Project ini dibuat untuk memenuhi tugas Ujian Tengah Semester mata kuliah **Pemr
 
 ## Deskripsi Project
 
-Website ini menampilkan informasi CV pribadi yang terdiri dari profil singkat, deskripsi diri, riwayat pendidikan, kemampuan, hobi, galeri gambar, link terkait, dan kontak. Project ini dibuat sebagai latihan penerapan dasar-dasar pemrograman web, khususnya penggunaan HTML, CSS, dan JavaScript.
+Website ini menampilkan informasi CV pribadi yang terdiri dari profil singkat, deskripsi diri, riwayat pendidikan, Skill, hobby, galeri gambar, link terkait, dan kontak. Project ini dibuat sebagai latihan penerapan dasar-dasar pemrograman web, khususnya penggunaan HTML, CSS, dan JavaScript.
 
 ## Fitur Website
 
