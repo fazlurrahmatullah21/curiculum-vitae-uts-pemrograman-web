@@ -1,4 +1,3 @@
-/* Mengatur tampilan dasar halaman */
 * {
     margin: 0;
     padding: 0;
@@ -226,7 +225,6 @@ footer {
     margin-top: 30px;
 }
 
-/* Responsive untuk tampilan HP *soon hapus saat upload */ 
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
