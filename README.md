@@ -47,9 +47,10 @@ curiculum-vitae-uts-pemrograman-web/
 ├── script.js
 │
 └── images/
-    ├── foto-profil.jpg
-    ├── coding.jpg
-    └── kampus.jpg
+    ├── Pas_Foto.jpg.jpg
+    ├── kubernetes.jpg
+    └── server_lahtube_old2.jpg
+    └── unsia_gambar.jpg
 ```
 
 ## Cara Menjalankan Project
@@ -64,7 +65,7 @@ curiculum-vitae-uts-pemrograman-web/
 Website yang sudah dipublish dapat diakses melalui link berikut:
 
 ```text
-Isi link website kamu di sini
+https://fazlurrahmatullah21.github.io/curiculum-vitae-uts-pemrograman-web/
 ```
 
 ## Link Repository
