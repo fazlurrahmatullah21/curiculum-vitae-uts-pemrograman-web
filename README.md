@@ -70,7 +70,7 @@ Isi link website kamu di sini
 ## Link Repository
 
 ```text
-Isi link repository GitHub kamu di sini
+https://github.com/fazlurrahmatullah21/curiculum-vitae-uts-pemrograman-web/
 ```
 
 ## Keterangan
