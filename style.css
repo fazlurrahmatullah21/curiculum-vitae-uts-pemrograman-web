@@ -1,0 +1,259 @@
+/* Mengatur tampilan dasar halaman */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header dan Navbar */
+header {
+    background: #1f2937;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #facc15;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #facc15;
+}
+
+/* Hero Section */
+.hero {
+    max-width: 1100px;
+    margin: auto;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.hero-text h2 span {
+    color: #2563eb;
+    white-space: nowrap;
+}
+
+.hero-text h3 {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 15px;
+    text-align: justify;
+    max-width: 650px;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #2563eb;
+}
+
+/* Button */
+.btn,
+button {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover,
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Section Umum */
+.section {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #1f2937;
+    border-left: 5px solid #2563eb;
+    padding-left: 10px;
+}
+
+.section h3 {
+    margin-bottom: 10px;
+}
+
+/* About */
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.about-grid ul,
+.about-grid ol,
+.link-list {
+    padding-left: 25px;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background: #2563eb;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background: #f3f4f6;
+}
+
+/* Link */
+.link-list li {
+    margin-bottom: 8px;
+}
+
+.link-list a {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.link-list a:hover {
+    color: #1e40af;
+}
+
+/* Contact */
+.contact p {
+    margin-bottom: 15px;
+}
+
+#pesan {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f2937;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Responsive untuk tampilan HP *soon hapus saat upload */ 
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-text p {
+        text-align: left;
+    }
+
+    .about-grid,
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-image img {
+        width: 220px;
+        height: 220px;
+    }
+}
